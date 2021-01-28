@@ -1,0 +1,21 @@
+//
+//  ViewController.swift
+//  iOS-ArchitectureDemo
+//
+//  Created by Lingye Han on 2021/1/27.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+
+    }
+    
+    
+ 
+}
