@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CD045A5D9948CFF28B20129 /* Pods_iOS_ArchitectureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771109A8308F8241D57EAD3B /* Pods_iOS_ArchitectureDemo.framework */; };
 		69B0C68A25C16FBD009511F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C68925C16FBD009511F9 /* AppDelegate.swift */; };
 		69B0C69325C16FBF009511F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69225C16FBF009511F9 /* Assets.xcassets */; };
 		69B0C69625C16FBF009511F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69425C16FBF009511F9 /* LaunchScreen.storyboard */; };
@@ -22,12 +23,22 @@
 		69B0C75A25C2B292009511F9 /* LanguageListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C75925C2B292009511F9 /* LanguageListPresenter.swift */; };
 		69B0C75D25C2B3D0009511F9 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C75C25C2B3D0009511F9 /* Presenter.swift */; };
 		69B0C76025C2B50D009511F9 /* MVPLanguageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C75F25C2B50D009511F9 /* MVPLanguageListViewController.swift */; };
+		69BCF90D25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF90C25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift */; };
+		69BCF91125F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF91025F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift */; };
+		69BCF91725F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF91625F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift */; };
+		69BCF91B25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF91A25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift */; };
+		69BCF93625F20948004FAAF6 /* RxGithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF93525F20948004FAAF6 /* RxGithubService.swift */; };
+		69BCF93925F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF93825F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift */; };
+		69BCF93C25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF93B25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift */; };
+		69BCF94225F216E8004FAAF6 /* RepositoryListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF94125F216E8004FAAF6 /* RepositoryListCoordinator.swift */; };
+		69BCF94625F21711004FAAF6 /* LanguageListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF94525F21711004FAAF6 /* LanguageListCoordinator.swift */; };
+		69BCF94925F21794004FAAF6 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF94825F21794004FAAF6 /* BaseCoordinator.swift */; };
+		69BCF94D25F2186F004FAAF6 /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF94C25F2186F004FAAF6 /* StoryboardInitializable.swift */; };
+		69BCF95025F21B9C004FAAF6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BCF94F25F21B9C004FAAF6 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1956A87A0E4EA42D4ABBFC2A /* Pods-MVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCTests.debug.xcconfig"; path = "Target Support Files/Pods-MVCTests/Pods-MVCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F0E2C6CFB8B7DAB6C2A4DC3 /* Pods-MVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC.release.xcconfig"; path = "Target Support Files/Pods-MVC/Pods-MVC.release.xcconfig"; sourceTree = "<group>"; };
-		5610A1A3E66C40695C527EF4 /* Pods-MVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCTests.release.xcconfig"; path = "Target Support Files/Pods-MVCTests/Pods-MVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		329936C588DB580F12B03829 /* Pods-iOS-ArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-ArchitectureDemo.release.xcconfig"; path = "Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62BF4E9083610BB3FF2C6F71 /* Pods_MVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B0C68725C16FBD009511F9 /* iOS-ArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ArchitectureDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B0C68925C16FBD009511F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +57,20 @@
 		69B0C75925C2B292009511F9 /* LanguageListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListPresenter.swift; sourceTree = "<group>"; };
 		69B0C75C25C2B3D0009511F9 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		69B0C75F25C2B50D009511F9 /* MVPLanguageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPLanguageListViewController.swift; sourceTree = "<group>"; };
-		7723888A94356A2A1B1FF4CA /* Pods-MVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC.debug.xcconfig"; path = "Target Support Files/Pods-MVC/Pods-MVC.debug.xcconfig"; sourceTree = "<group>"; };
+		69BCF90C25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRepositoryListTableViewController.swift; sourceTree = "<group>"; };
+		69BCF91025F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRepositoryListViewModel.swift; sourceTree = "<group>"; };
+		69BCF91625F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxRepositoryListViewController.swift; sourceTree = "<group>"; };
+		69BCF91A25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxRepositoryListViewModel.swift; sourceTree = "<group>"; };
+		69BCF93525F20948004FAAF6 /* RxGithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGithubService.swift; sourceTree = "<group>"; };
+		69BCF93825F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxLanguageListViewController.swift; sourceTree = "<group>"; };
+		69BCF93B25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMRxLanguageListViewModel.swift; sourceTree = "<group>"; };
+		69BCF94125F216E8004FAAF6 /* RepositoryListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCoordinator.swift; sourceTree = "<group>"; };
+		69BCF94525F21711004FAAF6 /* LanguageListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListCoordinator.swift; sourceTree = "<group>"; };
+		69BCF94825F21794004FAAF6 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		69BCF94C25F2186F004FAAF6 /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		69BCF94F25F21B9C004FAAF6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		771109A8308F8241D57EAD3B /* Pods_iOS_ArchitectureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ArchitectureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C42D77FB54FC93FF0716D1 /* Pods-iOS-ArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-ArchitectureDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E446BA26CB9A0263EBEA19F5 /* Pods_MVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD045A5D9948CFF28B20129 /* Pods_iOS_ArchitectureDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +92,16 @@
 				69B0C68925C16FBD009511F9 /* AppDelegate.swift */,
 				69B0C6C125C1703B009511F9 /* ViewController.swift */,
 				69B0C69725C16FBF009511F9 /* Info.plist */,
+				69BCF94B25F21816004FAAF6 /* Extension */,
+				69B0C6DC25C17C20009511F9 /* Networking */,
 				69B0C6DD25C17C2E009511F9 /* Models */,
 				69B0C76325C2BFBA009511F9 /* Views */,
 				69B0C76625C2C1F7009511F9 /* ViewControllers */,
 				69B0C68825C16FBD009511F9 /* MVC */,
 				699B49A925C169A60046412B /* MVP */,
-				69B0C6DC25C17C20009511F9 /* Networking */,
+				69BCF90825F1E235004FAAF6 /* MVVM */,
+				69BCF91325F1F0D4004FAAF6 /* MVVM+Rx */,
+				69BCF94025F216B8004FAAF6 /* Coordinator */,
 				699B496C25C168690046412B /* Resources */,
 				699B496B25C168690046412B /* Products */,
 				8D11E2070933ADA22573DC2A /* Pods */,
@@ -122,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				69B0C6E325C17C9F009511F9 /* GithubService.swift */,
+				69BCF93525F20948004FAAF6 /* RxGithubService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -150,13 +180,50 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		69BCF90825F1E235004FAAF6 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				69BCF90C25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift */,
+				69BCF91025F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		69BCF91325F1F0D4004FAAF6 /* MVVM+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				69BCF91625F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift */,
+				69BCF91A25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift */,
+				69BCF93825F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift */,
+				69BCF93B25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift */,
+			);
+			path = "MVVM+Rx";
+			sourceTree = "<group>";
+		};
+		69BCF94025F216B8004FAAF6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				69BCF94125F216E8004FAAF6 /* RepositoryListCoordinator.swift */,
+				69BCF94525F21711004FAAF6 /* LanguageListCoordinator.swift */,
+				69BCF94825F21794004FAAF6 /* BaseCoordinator.swift */,
+				69BCF94F25F21B9C004FAAF6 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		69BCF94B25F21816004FAAF6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69BCF94C25F2186F004FAAF6 /* StoryboardInitializable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		8D11E2070933ADA22573DC2A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7723888A94356A2A1B1FF4CA /* Pods-MVC.debug.xcconfig */,
-				2F0E2C6CFB8B7DAB6C2A4DC3 /* Pods-MVC.release.xcconfig */,
-				1956A87A0E4EA42D4ABBFC2A /* Pods-MVCTests.debug.xcconfig */,
-				5610A1A3E66C40695C527EF4 /* Pods-MVCTests.release.xcconfig */,
+				89C42D77FB54FC93FF0716D1 /* Pods-iOS-ArchitectureDemo.debug.xcconfig */,
+				329936C588DB580F12B03829 /* Pods-iOS-ArchitectureDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,6 +233,7 @@
 			children = (
 				62BF4E9083610BB3FF2C6F71 /* Pods_MVC.framework */,
 				E446BA26CB9A0263EBEA19F5 /* Pods_MVCTests.framework */,
+				771109A8308F8241D57EAD3B /* Pods_iOS_ArchitectureDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B0C6AE25C16FC0009511F9 /* Build configuration list for PBXNativeTarget "iOS-ArchitectureDemo" */;
 			buildPhases = (
+				493CB3DFFDF3D7FC2FEDB781 /* [CP] Check Pods Manifest.lock */,
 				69B0C68325C16FBD009511F9 /* Sources */,
 				69B0C68425C16FBD009511F9 /* Frameworks */,
 				69B0C68525C16FBD009511F9 /* Resources */,
+				953B7FF89E5C0707D1B38537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +305,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		493CB3DFFDF3D7FC2FEDB781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-ArchitectureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953B7FF89E5C0707D1B38537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69B0C68325C16FBD009511F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,15 +354,27 @@
 			files = (
 				69B0C75A25C2B292009511F9 /* LanguageListPresenter.swift in Sources */,
 				69B0C75D25C2B3D0009511F9 /* Presenter.swift in Sources */,
+				69BCF94225F216E8004FAAF6 /* RepositoryListCoordinator.swift in Sources */,
 				69B0C6D825C17B56009511F9 /* MVCLanguageListViewController.swift in Sources */,
 				69B0C6C225C1703B009511F9 /* ViewController.swift in Sources */,
+				69BCF94D25F2186F004FAAF6 /* StoryboardInitializable.swift in Sources */,
+				69BCF91125F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift in Sources */,
 				69B0C76025C2B50D009511F9 /* MVPLanguageListViewController.swift in Sources */,
+				69BCF91B25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift in Sources */,
 				69B0C6D325C17B3E009511F9 /* MVCRepositoryListViewController.swift in Sources */,
+				69BCF94925F21794004FAAF6 /* BaseCoordinator.swift in Sources */,
+				69BCF93925F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift in Sources */,
+				69BCF95025F21B9C004FAAF6 /* AppCoordinator.swift in Sources */,
+				69BCF93C25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift in Sources */,
+				69BCF91725F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift in Sources */,
 				69B0C6E425C17C9F009511F9 /* GithubService.swift in Sources */,
 				69B0C74925C28B10009511F9 /* MVPRepositoryListViewController.swift in Sources */,
 				69B0C74425C278BA009511F9 /* RepositoryListPresenter.swift in Sources */,
+				69BCF93625F20948004FAAF6 /* RxGithubService.swift in Sources */,
 				69B0C68A25C16FBD009511F9 /* AppDelegate.swift in Sources */,
+				69BCF90D25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift in Sources */,
 				69B0C6DF25C17C72009511F9 /* Repository.swift in Sources */,
+				69BCF94625F21711004FAAF6 /* LanguageListCoordinator.swift in Sources */,
 				69B0C6EA25C264F8009511F9 /* RepositoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -375,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -387,6 +511,7 @@
 		};
 		69B0C6AF25C16FC0009511F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C42D77FB54FC93FF0716D1 /* Pods-iOS-ArchitectureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -409,6 +534,7 @@
 		};
 		69B0C6B025C16FC0009511F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329936C588DB580F12B03829 /* Pods-iOS-ArchitectureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

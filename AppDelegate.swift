@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,11 +18,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        //let vc = MVCRepositoryListViewController()
-        let vc = MVPRepositoryListViewController()
-        window?.rootViewController = UINavigationController(rootViewController: vc)
+        //setupRootViewController()
+        setupAppCoordinator()
         
         return true
+    }
+    
+    func setupRootViewController() {
+        //let vc = MVCRepositoryListViewController()
+        //let vc = MVPRepositoryListViewController()
+        let vc = MVVMRxRepositoryListViewController()
+        window?.rootViewController = UINavigationController(rootViewController: vc)
+    }
+    
+    private let disposeBag = DisposeBag()
+    private var appCoordinator: AppCoordinator!
+    func setupAppCoordinator() {
+        appCoordinator = AppCoordinator(window: window!)
+        appCoordinator.start()
+            .subscribe()
+            .disposed(by: disposeBag)
     }
 }
 
