@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4CD045A5D9948CFF28B20129 /* Pods_iOS_ArchitectureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771109A8308F8241D57EAD3B /* Pods_iOS_ArchitectureDemo.framework */; };
+		69A41D0525F23C0400F5D903 /* RepoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D0425F23C0400F5D903 /* RepoListPresenter.swift */; };
+		69A41D0825F23CBD00F5D903 /* RepoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D0725F23CBD00F5D903 /* RepoListInteractor.swift */; };
+		69A41D0B25F23DD800F5D903 /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D0A25F23DD800F5D903 /* RepoListViewController.swift */; };
+		69A41D0E25F2420800F5D903 /* RepoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D0D25F2420800F5D903 /* RepoListRouter.swift */; };
+		69A41D1125F5DDFE00F5D903 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D1025F5DDFE00F5D903 /* RootRouter.swift */; };
+		69A41D1425F61EBF00F5D903 /* DetailVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D1325F61EBF00F5D903 /* DetailVIPER.swift */; };
 		69B0C68A25C16FBD009511F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C68925C16FBD009511F9 /* AppDelegate.swift */; };
 		69B0C69325C16FBF009511F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69225C16FBF009511F9 /* Assets.xcassets */; };
 		69B0C69625C16FBF009511F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69425C16FBF009511F9 /* LaunchScreen.storyboard */; };
@@ -40,6 +46,12 @@
 /* Begin PBXFileReference section */
 		329936C588DB580F12B03829 /* Pods-iOS-ArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-ArchitectureDemo.release.xcconfig"; path = "Target Support Files/Pods-iOS-ArchitectureDemo/Pods-iOS-ArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62BF4E9083610BB3FF2C6F71 /* Pods_MVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A41D0425F23C0400F5D903 /* RepoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListPresenter.swift; sourceTree = "<group>"; };
+		69A41D0725F23CBD00F5D903 /* RepoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListInteractor.swift; sourceTree = "<group>"; };
+		69A41D0A25F23DD800F5D903 /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
+		69A41D0D25F2420800F5D903 /* RepoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListRouter.swift; sourceTree = "<group>"; };
+		69A41D1025F5DDFE00F5D903 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		69A41D1325F61EBF00F5D903 /* DetailVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVIPER.swift; sourceTree = "<group>"; };
 		69B0C68725C16FBD009511F9 /* iOS-ArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ArchitectureDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B0C68925C16FBD009511F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B0C69225C16FBF009511F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 				69BCF90825F1E235004FAAF6 /* MVVM */,
 				69BCF91325F1F0D4004FAAF6 /* MVVM+Rx */,
 				69BCF94025F216B8004FAAF6 /* Coordinator */,
+				69A41D0225F23B0400F5D903 /* VIPER */,
 				699B496C25C168690046412B /* Resources */,
 				699B496B25C168690046412B /* Products */,
 				8D11E2070933ADA22573DC2A /* Pods */,
@@ -136,6 +149,19 @@
 				69B0C75C25C2B3D0009511F9 /* Presenter.swift */,
 			);
 			path = MVP;
+			sourceTree = "<group>";
+		};
+		69A41D0225F23B0400F5D903 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				69A41D0425F23C0400F5D903 /* RepoListPresenter.swift */,
+				69A41D0725F23CBD00F5D903 /* RepoListInteractor.swift */,
+				69A41D0A25F23DD800F5D903 /* RepoListViewController.swift */,
+				69A41D0D25F2420800F5D903 /* RepoListRouter.swift */,
+				69A41D1025F5DDFE00F5D903 /* RootRouter.swift */,
+				69A41D1325F61EBF00F5D903 /* DetailVIPER.swift */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 		69B0C68825C16FBD009511F9 /* MVC */ = {
@@ -354,16 +380,20 @@
 			files = (
 				69B0C75A25C2B292009511F9 /* LanguageListPresenter.swift in Sources */,
 				69B0C75D25C2B3D0009511F9 /* Presenter.swift in Sources */,
+				69A41D1425F61EBF00F5D903 /* DetailVIPER.swift in Sources */,
+				69A41D0E25F2420800F5D903 /* RepoListRouter.swift in Sources */,
 				69BCF94225F216E8004FAAF6 /* RepositoryListCoordinator.swift in Sources */,
 				69B0C6D825C17B56009511F9 /* MVCLanguageListViewController.swift in Sources */,
 				69B0C6C225C1703B009511F9 /* ViewController.swift in Sources */,
 				69BCF94D25F2186F004FAAF6 /* StoryboardInitializable.swift in Sources */,
 				69BCF91125F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift in Sources */,
+				69A41D0B25F23DD800F5D903 /* RepoListViewController.swift in Sources */,
 				69B0C76025C2B50D009511F9 /* MVPLanguageListViewController.swift in Sources */,
 				69BCF91B25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift in Sources */,
 				69B0C6D325C17B3E009511F9 /* MVCRepositoryListViewController.swift in Sources */,
 				69BCF94925F21794004FAAF6 /* BaseCoordinator.swift in Sources */,
 				69BCF93925F20D68004FAAF6 /* MVVMRxLanguageListViewController.swift in Sources */,
+				69A41D0525F23C0400F5D903 /* RepoListPresenter.swift in Sources */,
 				69BCF95025F21B9C004FAAF6 /* AppCoordinator.swift in Sources */,
 				69BCF93C25F20E07004FAAF6 /* MVVMRxLanguageListViewModel.swift in Sources */,
 				69BCF91725F1F17F004FAAF6 /* MVVMRxRepositoryListViewController.swift in Sources */,
@@ -373,6 +403,8 @@
 				69BCF93625F20948004FAAF6 /* RxGithubService.swift in Sources */,
 				69B0C68A25C16FBD009511F9 /* AppDelegate.swift in Sources */,
 				69BCF90D25F1E4B5004FAAF6 /* MVVMRepositoryListTableViewController.swift in Sources */,
+				69A41D1125F5DDFE00F5D903 /* RootRouter.swift in Sources */,
+				69A41D0825F23CBD00F5D903 /* RepoListInteractor.swift in Sources */,
 				69B0C6DF25C17C72009511F9 /* Repository.swift in Sources */,
 				69BCF94625F21711004FAAF6 /* LanguageListCoordinator.swift in Sources */,
 				69B0C6EA25C264F8009511F9 /* RepositoryCell.swift in Sources */,

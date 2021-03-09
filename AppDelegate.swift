@@ -19,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         //setupRootViewController()
-        setupAppCoordinator()
+        //setupAppCoordinator()
+        
+        // VIPER
+        RootRouter().presentMainScreen(in: window)
         
         return true
     }
