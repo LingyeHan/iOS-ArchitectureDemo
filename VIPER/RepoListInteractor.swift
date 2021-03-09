@@ -35,10 +35,14 @@ protocol RepoListInteractorOutputInterface: class {
 // MARK: - RepoListInteractor
 
 class RepoListInteractor {
-    private let githubService: GithubService = GithubService()
+    private let githubService: GithubService
     
     // Reference to the Presenter's output interface.
     weak var presenter: RepoListInteractorOutputInterface?
+    
+    init(githubService: GithubService = GithubService()) {
+        self.githubService = githubService
+    }
 }
 
 // MARK: - RepoListInteractorInputInterface

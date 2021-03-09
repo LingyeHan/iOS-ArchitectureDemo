@@ -199,10 +199,10 @@
 		69A41D2025F74ACE00F5D903 /* iOS-ArchitectureDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				69A41D2125F74ACE00F5D903 /* iOS_ArchitectureDemoTests.swift */,
-				69A41D2325F74ACE00F5D903 /* Info.plist */,
-				69A41D2B25F74EBC00F5D903 /* RepositoryListViewModelTests.swift */,
 				69A41D3F25F75F3B00F5D903 /* GithubServiceMock.swift */,
+				69A41D2125F74ACE00F5D903 /* iOS_ArchitectureDemoTests.swift */,
+				69A41D2B25F74EBC00F5D903 /* RepositoryListViewModelTests.swift */,
+				69A41D2325F74ACE00F5D903 /* Info.plist */,
 			);
 			path = "iOS-ArchitectureDemoTests";
 			sourceTree = "<group>";

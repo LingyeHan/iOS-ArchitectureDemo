@@ -22,3 +22,12 @@ class RxGithubServiceMock: RxGithubService {
         return repositoriesReturnValue
     }
 }
+
+class GithubServiceMock: GithubService {
+
+    var repositoriesReturnValue: (Result<[Repository], Error>) = .success([])
+    override func getMostPopularRepositories(byLanguage language: String, completion: @escaping (Result<[Repository], Error>) -> Void) {
+
+        return completion(repositoriesReturnValue)
+    }
+}
