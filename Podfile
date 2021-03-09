@@ -8,11 +8,13 @@ target 'iOS-ArchitectureDemo' do
   pod 'RxSwift'
   pod 'RxCocoa'
 
-  # Pods for iOS-ArchitectureDemo
-
-#  target 'iOS-ArchitectureDemoTests' do
-#    inherit! :search_paths
-#    # Pods for testing
-#  end
+  target 'iOS-ArchitectureDemoTests' do
+    inherit! :search_paths
+    
+    pod 'RxTest'
+    pod 'RxBlocking'
+#    pod 'RxSwift'
+#    pod 'RxCocoa'
+  end
 
 end

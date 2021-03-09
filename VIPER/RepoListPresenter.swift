@@ -76,13 +76,13 @@ extension RepoListPresenter: RepoListPresenterInputInterface {
 // MARK: - RepoListInteractorOutputInterface
 
 extension RepoListPresenter: RepoListInteractorOutputInterface {
-    func loadDataSuccess(_ repositories: [Repository]) {
+    func didFinishLoad(_ repositories: [Repository]) {
         dataSource = repositories
         view?.reloadData()
         view?.loadingIndicator(show: false)
     }
     
-    func loadDataFailure(_ error: Error) {
+    func didFailLoad(_ error: Error) {
         view?.showAlert(message: error.localizedDescription)
     }
 }

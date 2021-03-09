@@ -28,8 +28,8 @@ protocol RepoListInteractorInputInterface: class {
 
 protocol RepoListInteractorOutputInterface: class {
     
-    func didFinishLoadData(_ repositories: [Repository])
-    func loadDataFailure(_ error: Error)
+    func didFinishLoad(_ repositories: [Repository])
+    func didFailLoad(_ error: Error)
 }
 
 // MARK: - RepoListInteractor
@@ -49,9 +49,9 @@ extension RepoListInteractor: RepoListInteractorInputInterface {
         githubService.getMostPopularRepositories(byLanguage: language) { [weak self] result in
             switch result {
             case .success(let repositories):
-                self?.presenter?.loadDataSuccess(repositories)
+                self?.presenter?.didFinishLoad(repositories)
             case .failure(let error):
-                self?.presenter?.loadDataFailure(error)
+                self?.presenter?.didFailLoad(error)
             }
         }
     }
