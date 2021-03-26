@@ -8,6 +8,16 @@
 import UIKit
 import RxSwift
 
+/**
+ Sample iOS app written the way I write iOS apps because I cannot share the app I currently work on.
+
+ https://blog.kulman.sk/architecting-ios-apps-coordinators/
+ 
+ https://github.com/igorkulman/iOSSampleApp
+ 
+ https://juejin.cn/post/6923197105422991367
+ https://github.com/MarcoSantarossa/MVVM-C_with_Swift
+ */
 class AppCoordinator: BaseCoordinator<Void> {
 
     private let window: UIWindow

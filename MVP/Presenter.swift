@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ https://github.com/trinhduchung/Swift-MVP-POC
+ */
 protocol Presenter: class {
     // TODO
 }

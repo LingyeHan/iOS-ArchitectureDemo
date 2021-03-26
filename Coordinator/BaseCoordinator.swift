@@ -7,7 +7,6 @@
 
 import Foundation
 import RxSwift
-import Foundation
 
 // referrence: https://github.com/uptechteam/Coordinator-MVVM-Rx-Example
 

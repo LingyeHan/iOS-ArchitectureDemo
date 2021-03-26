@@ -17,6 +17,7 @@
 		69A41D2225F74ACE00F5D903 /* iOS_ArchitectureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D2125F74ACE00F5D903 /* iOS_ArchitectureDemoTests.swift */; };
 		69A41D2C25F74EBC00F5D903 /* RepositoryListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D2B25F74EBC00F5D903 /* RepositoryListViewModelTests.swift */; };
 		69A41D4025F75F3B00F5D903 /* GithubServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D3F25F75F3B00F5D903 /* GithubServiceMock.swift */; };
+		69A41D7E26048DF700F5D903 /* RxVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A41D7D26048DF700F5D903 /* RxVIPER.swift */; };
 		69B0C68A25C16FBD009511F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0C68925C16FBD009511F9 /* AppDelegate.swift */; };
 		69B0C69325C16FBF009511F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69225C16FBF009511F9 /* Assets.xcassets */; };
 		69B0C69625C16FBF009511F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B0C69425C16FBF009511F9 /* LaunchScreen.storyboard */; };
@@ -71,6 +72,7 @@
 		69A41D2325F74ACE00F5D903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A41D2B25F74EBC00F5D903 /* RepositoryListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewModelTests.swift; sourceTree = "<group>"; };
 		69A41D3F25F75F3B00F5D903 /* GithubServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubServiceMock.swift; sourceTree = "<group>"; };
+		69A41D7D26048DF700F5D903 /* RxVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxVIPER.swift; sourceTree = "<group>"; };
 		69B0C68725C16FBD009511F9 /* iOS-ArchitectureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ArchitectureDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B0C68925C16FBD009511F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B0C69225C16FBF009511F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				69BCF91325F1F0D4004FAAF6 /* MVVM+Rx */,
 				69BCF94025F216B8004FAAF6 /* Coordinator */,
 				69A41D0225F23B0400F5D903 /* VIPER */,
+				69A41D7C26048DAC00F5D903 /* RxVIPER */,
 				699B496C25C168690046412B /* Resources */,
 				69A41D2025F74ACE00F5D903 /* iOS-ArchitectureDemoTests */,
 				699B496B25C168690046412B /* Products */,
@@ -205,6 +208,14 @@
 				69A41D2325F74ACE00F5D903 /* Info.plist */,
 			);
 			path = "iOS-ArchitectureDemoTests";
+			sourceTree = "<group>";
+		};
+		69A41D7C26048DAC00F5D903 /* RxVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				69A41D7D26048DF700F5D903 /* RxVIPER.swift */,
+			);
+			path = RxVIPER;
 			sourceTree = "<group>";
 		};
 		69B0C68825C16FBD009511F9 /* MVC */ = {
@@ -515,6 +526,7 @@
 				69BCF94D25F2186F004FAAF6 /* StoryboardInitializable.swift in Sources */,
 				69BCF91125F1E547004FAAF6 /* MVVMRepositoryListViewModel.swift in Sources */,
 				69A41D0B25F23DD800F5D903 /* RepoListViewController.swift in Sources */,
+				69A41D7E26048DF700F5D903 /* RxVIPER.swift in Sources */,
 				69B0C76025C2B50D009511F9 /* MVPLanguageListViewController.swift in Sources */,
 				69BCF91B25F1F190004FAAF6 /* MVVMRxRepositoryListViewModel.swift in Sources */,
 				69B0C6D325C17B3E009511F9 /* MVCRepositoryListViewController.swift in Sources */,
